@@ -4,6 +4,8 @@
  *
  * Author:  Jim Hull <jim.hull@hpe.com>
  *          Betty Dall <betty.dall@hpe.com>
+ *	    JS Ma <majinsuk@etri.re.kr>
+ *	    SW SOK <swsok@etri.re.kr>
  *
  * Copyright:
  *     © Copyright 2016-2017 Hewlett Packard Enterprise Development LP
