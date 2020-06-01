@@ -6,7 +6,7 @@ ETRI modify to support Request mode in linux kernel with original vendor supplie
 BIO mode can not select IO schedulers in linux kernel in sysfs.
 Meanwhile request mode can use them(dead-line, cfq, noop).
 
-Requirement for test
+# Requirement for test
  : Gen-Z 0.7 FPGA card
  : Ubuntu 16.04
  : linux kernel 4.4, 4.15 for each version.
