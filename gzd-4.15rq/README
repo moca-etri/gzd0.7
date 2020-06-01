@@ -28,8 +28,8 @@ messaging over Gen-Z:
               block device is partitionable, with up to 15 partitions,
               and they support Direct Access Extensions (DAX).
               
-              In addition, we changed the original BIO mode block handling 
-              to the request mode block one. The request mode can handle the block 
+              In addition, we changed the original BIO mode block handling code
+              to the request mode handling one. The request mode can handle the block 
               request unit. With this request mode device driver, one can change any IO scheduler
               such as cfq, dead-line, noop.
 
