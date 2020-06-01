@@ -12,7 +12,7 @@
 # : linux kernel 4.4, 4.15 for each version.
 # : dkms installation
 # : /etc/modprobe.d/gzd.conf must be set to inialize the basic card setup.
-#     gzd.conf  is  supplied in this driver code each version
+#     gzd.conf is supplied with this driver code each version
 
 # We tested with Ubuntu 16.04 with each linux kernel version.
 # Please enjoy it.
