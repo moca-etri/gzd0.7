@@ -33,7 +33,7 @@ messaging over Gen-Z:
               request unit. With this request mode device driver, one can change any IO scheduler
               such as cfq, dead-line, noop.
               
-              gzd-4.15rq means for Linux kernel 4.15, request-mode device driver.
+              gzd-4.15rq means this driver code is for Linux kernel 4.15, request-mode device driver.
 
   gzd-en      Provides Ethernet messaging over Gen-Z.  The network devices
               are named gzdN, where N starts at 0 and increases, one per
