@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo ./dkms_reinstall gzd 4.0rq-indent
+sudo ./dkms_reinstall gzd 4.0rq
