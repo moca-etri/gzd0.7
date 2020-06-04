@@ -1,10 +1,10 @@
 # gzd0.7 FPGA board test driver
 
-This device driver code is for Gen-z 0.7 FPGA card board.
-Original source code supported for linux kernel 4.4 and BIO(block IO) mode only.
-ETRI modify to support Request mode in linux kernel with original vendor supplied code.
-BIO mode can not select IO schedulers in linux kernel in sysfs.
-Meanwhile request mode can use them(dead-line, cfq, noop).
+#### This device driver code is for Gen-z 0.7 FPGA card board.
+#### Original source code supported for linux kernel 4.4 and BIO(block IO) mode only.
+#### ETRI modify to support Request mode in linux kernel with original vendor supplied code.
+#### BIO mode can not select IO schedulers in linux kernel in sysfs.
+#### Meanwhile request mode can use them(dead-line, cfq, noop).
 
 ## Requirement for test
 
