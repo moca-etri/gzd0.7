@@ -6,19 +6,19 @@ ETRI modify to support Request mode in linux kernel with original vendor supplie
 BIO mode can not select IO schedulers in linux kernel in sysfs.
 Meanwhile request mode can use them(dead-line, cfq, noop).
 
-# Requirement for test
+## Requirement for test
 
-##H/W
-    1. Gen-Z 0.7 FPGA card
-    2. Intel Xeon or AMD Threadripper
-##S/W 
+### H/W
+- Gen-Z 0.7 FPGA card
+- Intel Xeon or AMD Threadripper
+### S/W 
     1. Ubuntu 16.04 or 18.04
     2. linux kernel 4.4, 4.15 for each version.
     3. dkms installation
     4. /etc/modprobe.d/gzd.conf must be set to initialize the basic card setup.
     5. gzd.conf is supplied with this driver code in each version
 
-# Procedure
+## Procedure
    1. H/W System(Intel XEON above) setup and FPGA card install
    2. Install kernel, module and header with linux kernel 4.4 or 4.15 each(use Ubuntu defcofig)
    3. Download driver sources with git clone command & copy to /usr/src/
