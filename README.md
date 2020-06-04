@@ -19,13 +19,13 @@
     5. gzd.conf is supplied with this driver code in each version
 
 ## Procedure
-   1. H/W System(Intel XEON above) setup and FPGA card install
-   2. Install kernel, module and header with linux kernel 4.4 or 4.15 each(use Ubuntu defcofig)
-   3. Download driver sources with git clone command & copy to /usr/src/
-   4. Compile each driver (/usr/src/gzd-4.0rq/./install-dkms-4.0rq
-   5. modprobe -a gzd-core(for gzd core install)
-   6. modprobe -a gzd-stor(for gzd char & block device install)
-   7. modprobe -a gzd-en(for network socket)
+    1. H/W System(Intel XEON above) setup and FPGA card install
+    2. Install kernel, module and header with linux kernel 4.4 or 4.15 each(use Ubuntu defcofig)
+    3. Download driver sources with git clone command & copy to /usr/src/
+    4. Compile each driver (/usr/src/gzd-4.0rq/./install-dkms-4.0rq
+    5. modprobe -a gzd-core(for gzd core install)
+    6. modprobe -a gzd-stor(for gzd char & block device install)
+    7. modprobe -a gzd-en(for network socket)
    8. You can see gzb0_0_0(block device) or gzc0_0_0(native char device) in /dev directory
    9. Start test
    
