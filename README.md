@@ -1,4 +1,4 @@
-# gzd0.7 FPGA board test driver
+# Gzd0.7 FPGA board test driver
 
 #### This device driver code is for Gen-z 0.7 FPGA card board.
 #### Original source code supported for linux kernel 4.4 and BIO(block IO) mode only.
