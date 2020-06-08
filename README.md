@@ -10,7 +10,7 @@
 
 ### H/W
 - Gen-Z 0.7 FPGA card
-- Intel Xeon or AMD Threadripper
+- Intel Xeon or AMD Threadripper(Needs an UEFI bios support with more than 4GB PCIe allocation funtion!!)
 ### S/W 
     1. Ubuntu 16.04 or 18.04
     2. linux kernel 4.4, 4.15 for each version.
