@@ -3,7 +3,7 @@
 #### This device driver code is for Gen-z 0.7 FPGA card board.
 #### Original source code supported linux kernel 4.4 and BIO(block IO) mode only.
 #### ETRI modified to support Request mode in linux kernel with original vendor supplied code.
-#### BIO mode cannot select IO schedulers in linux system's sysfs after installing a block device driver.
+#### BIO mode can't select IO schedulers in linux system's sysfs after installing a block device driver.
 #### Meanwhile this request mode driver can use one of them(such as dead-line, cfq, noop).
 
 ## Requirement for test
